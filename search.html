@@ -1,0 +1,3644 @@
+﻿<!DOCTYPE html>
+<html dir="rtl" lang="he-IL">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Stations Search</title>
+    <link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="homepage">
+            <ul>
+                <center><a href="index.html#anchor" class="myButton3">Home Page</a></center>
+            </ul>
+        </div>
+
+        <div class="box-6">
+            <h1>The Light Rail Stations</h1>
+            <img src="css\images\logo.jpg" alt="logo">
+        </div>
+
+        <div class="box-5">
+            <h2>Search:</h2>
+            <input type="text" id="myInput" onkeyup='tableSearch()' placeholder="Station Name" />
+            <table class="table table-bordered table-hover table-condensed" id="myTable" data-filter-control="true" data-show-search-clear-button="true">
+                <thead>
+                    <tr>
+                        <th title="Field #1">Status</th>
+                        <th title="Field #2">Metropolitan_Location</th>
+                        <th title="Field #3">Executing Company</th>
+                        <th title="Field #4">Year Month</th>
+                        <th title="Field #5">Type</th>
+                        <th title="Field #6">Line Color</th>
+                        <th title="Field #7">Name</th>
+                        <th title="Field #8">ID</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>HaKomemiyut</td>
+                        <td align="right">86</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>HeAmal</td>
+                        <td align="right">87</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Kaf Tet BeNovember</td>
+                        <td align="right">155</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Balfour</td>
+                        <td align="right">156</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Jabotinsky</td>
+                        <td align="right">157</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Binyamin</td>
+                        <td align="right">85</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Rothschild</td>
+                        <td align="right">158</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>HaAtsmaut</td>
+                        <td align="right">159</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Yoseftal</td>
+                        <td align="right">84</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Mahrozet</td>
+                        <td align="right">160</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>HaBesht</td>
+                        <td align="right">161</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Isakov</td>
+                        <td align="right">162</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Ehrlich</td>
+                        <td align="right">163</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Ben-Zvi</td>
+                        <td align="right">82</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Salame</td>
+                        <td align="right">83</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Elifelet</td>
+                        <td align="right">79</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Red</td>
+                        <td>Allenby</td>
+                        <td align="right">67</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Red</td>
+                        <td>Carlebach</td>
+                        <td align="right">78</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Red</td>
+                        <td>Yehudit</td>
+                        <td align="right">72</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Red</td>
+                        <td>Shaul HaMelekh</td>
+                        <td align="right">71</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Red</td>
+                        <td>Arlozorov</td>
+                        <td align="right">44</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Red</td>
+                        <td>Abba Hillel</td>
+                        <td align="right">45</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Red</td>
+                        <td>Bialik</td>
+                        <td align="right">164</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Red</td>
+                        <td>Ben-Gurion</td>
+                        <td align="right">26</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Red</td>
+                        <td>Aharonovich</td>
+                        <td align="right">43</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Red</td>
+                        <td>Em HaMoshavot</td>
+                        <td align="right">42</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Shenkar</td>
+                        <td align="right">165</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Shaham</td>
+                        <td align="right">166</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Kiryat Arye</td>
+                        <td align="right">112</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Beilinson</td>
+                        <td align="right">40</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Dankner</td>
+                        <td align="right">35</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Krol</td>
+                        <td align="right">34</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Pinsker</td>
+                        <td align="right">39</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td>Petah Tikva CBS</td>
+                        <td align="right">38</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Altalef</td>
+                        <td align="right">318</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Weizmann</td>
+                        <td align="right">317</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Bar-Ilan East</td>
+                        <td align="right">54</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Bar-Ilan West</td>
+                        <td align="right">187</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Gane llan</td>
+                        <td align="right">189</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Savyon Junction</td>
+                        <td align="right">356</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Mesubbim</td>
+                        <td align="right">350</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Yigal Allon</td>
+                        <td align="right">182</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Savyonim</td>
+                        <td align="right">354</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Monosson</td>
+                        <td align="right">355</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Ibn Gabirol</td>
+                        <td align="right">319</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Sheba</td>
+                        <td align="right">59</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Efal North</td>
+                        <td align="right">60</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Alluf Sade</td>
+                        <td align="right">174</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>HaYarden</td>
+                        <td align="right">175</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Raziel</td>
+                        <td align="right">176</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Korazin</td>
+                        <td align="right">177</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>HaMaavak</td>
+                        <td align="right">61</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Wolfson Park</td>
+                        <td align="right">62</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Moshe Dayan</td>
+                        <td align="right">63</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Givati</td>
+                        <td align="right">64</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>HaEtsel</td>
+                        <td align="right">65</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>HaHagana</td>
+                        <td align="right">66</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Nave Shaanan</td>
+                        <td align="right">172</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Yehuda HaLevi</td>
+                        <td align="right">67</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Montefiore</td>
+                        <td align="right">68</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>HaKarmel</td>
+                        <td align="right">171</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Mugrabi</td>
+                        <td align="right">80</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Bograshov</td>
+                        <td align="right">81</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Gordon</td>
+                        <td align="right">170</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Dizengoff</td>
+                        <td align="right">169</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Ichilov</td>
+                        <td align="right">168</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Har Tsiyon</td>
+                        <td align="right">320</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Kazaz</td>
+                        <td align="right">342</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Neve Savyon</td>
+                        <td align="right">349</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>HaAliya</td>
+                        <td align="right">357</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Arlozorov Terminal</td>
+                        <td align="right">359</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>HaTayyasim</td>
+                        <td align="right">358</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Goren</td>
+                        <td align="right">345</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Efal South</td>
+                        <td align="right">346</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Ramat Pinkas</td>
+                        <td align="right">348</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Yehud Center</td>
+                        <td align="right">352</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td>Yehud West</td>
+                        <td align="right">353</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Altneuland</td>
+                        <td align="right">345</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Einstein</td>
+                        <td align="right">341</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HaHoshlim</td>
+                        <td align="right">338</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HaNehoshet</td>
+                        <td align="right">335</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Hof HaTkhelet North</td>
+                        <td align="right">282</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Hof HaTkhelet South</td>
+                        <td align="right">281</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Abba Eban</td>
+                        <td align="right">20</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Unichman</td>
+                        <td align="right">280</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Levinsky College North</td>
+                        <td align="right">279</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Levinsky College South</td>
+                        <td align="right">278</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Shoshanna Parsitz</td>
+                        <td align="right">277</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Azore Hen</td>
+                        <td align="right">276</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Propes</td>
+                        <td align="right">33</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HaGush HaGadol</td>
+                        <td align="right">29</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Namir</td>
+                        <td align="right">321</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Brodetsky</td>
+                        <td align="right">322</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>University</td>
+                        <td align="right">131</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Rosenfeld</td>
+                        <td align="right">327</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Gane HaTaarukha</td>
+                        <td align="right">323</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Dov</td>
+                        <td align="right">346</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Stadium</td>
+                        <td align="right">325</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Pinhas Rosen</td>
+                        <td align="right">24</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Neve Sharet</td>
+                        <td align="right">316</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HaBarzel</td>
+                        <td align="right">326</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Levi Eshkol</td>
+                        <td align="right">28</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Reading</td>
+                        <td align="right">134</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Nordau</td>
+                        <td align="right">135</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HaYovel</td>
+                        <td align="right">331</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Green</td>
+                        <td>Arlozorov West</td>
+                        <td align="right">329</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>H-500</td>
+                        <td align="right">330</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Green</td>
+                        <td>Rabin</td>
+                        <td align="right">75</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Green</td>
+                        <td>Kaplan</td>
+                        <td align="right">73</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HaYarkon Park</td>
+                        <td align="right">332</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Subway</td>
+                        <td>Green</td>
+                        <td>Carlibach</td>
+                        <td align="right">78</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Hizkiyahu</td>
+                        <td align="right">139</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Lewinsky</td>
+                        <td align="right">138</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Kibbuts Galuyot</td>
+                        <td align="right">140</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Abu Kabir</td>
+                        <td align="right">70</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Gittit</td>
+                        <td align="right">69</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Holon Junction</td>
+                        <td align="right">92</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Yad LaBanim</td>
+                        <td align="right">141</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Dayan Terminal</td>
+                        <td align="right">149</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Lishansky</td>
+                        <td align="right">148</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Saharov</td>
+                        <td align="right">147</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Dvora HaNevia</td>
+                        <td align="right">336</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Laskov</td>
+                        <td align="right">146</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Hayyim Sharon</td>
+                        <td align="right">145</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Lavon</td>
+                        <td align="right">143</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Begin</td>
+                        <td align="right">144</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Golda Meir</td>
+                        <td align="right">142</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HaHistadrut</td>
+                        <td align="right">89</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HaNesiim</td>
+                        <td align="right">88</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Krauze</td>
+                        <td align="right">275</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Serlin</td>
+                        <td align="right">274</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Geulim</td>
+                        <td align="right">273</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HeHarash</td>
+                        <td align="right">272</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HaMelakha</td>
+                        <td align="right">271</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Mifrats Shlomo</td>
+                        <td align="right">270</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Depot Holon</td>
+                        <td align="right">90</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>Agricultural Center</td>
+                        <td align="right">93</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td>HaMerkava</td>
+                        <td align="right">91</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Sapir South</td>
+                        <td align="right">251</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Superland</td>
+                        <td align="right">278</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Hamihlala</td>
+                        <td align="right">223</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Hatkuma</td>
+                        <td align="right">224</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Tor Hazav</td>
+                        <td align="right">222</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Levi Eshkol</td>
+                        <td align="right">219</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Ben Gurion</td>
+                        <td align="right">282</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Remez</td>
+                        <td align="right">226</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Jabotinsky</td>
+                        <td align="right">283</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Golda Meir</td>
+                        <td align="right">225</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Hertzl</td>
+                        <td align="right">267</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Hacarmel</td>
+                        <td align="right">268</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Yerushalaim</td>
+                        <td align="right">269</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Shivat  Zion</td>
+                        <td align="right">284</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Hashomer</td>
+                        <td align="right">229</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Tzrifin 01</td>
+                        <td align="right">270</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Tzrifin 02</td>
+                        <td align="right">271</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Hazait</td>
+                        <td align="right">286</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Beer Yaakov - Jabotinsky</td>
+                        <td align="right">287</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Neomi Shemer</td>
+                        <td align="right">274</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Eliyahu</td>
+                        <td align="right">273</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Keren Hayesod</td>
+                        <td align="right">259</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Shtien</td>
+                        <td align="right">288</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Tzrifin 07</td>
+                        <td align="right">272</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Tzrifin 06</td>
+                        <td align="right">285</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Tzrifin 05</td>
+                        <td align="right">255</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Tzrifin 03</td>
+                        <td align="right">261</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Asaf Harofe</td>
+                        <td align="right">260</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Vaitzman</td>
+                        <td align="right">239</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Ramle - Hertzl</td>
+                        <td align="right">242</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Ramle - Lev Hair</td>
+                        <td align="right">289</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Tel Hai</td>
+                        <td align="right">249</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>HaRav Itshak Shimon Afriat</td>
+                        <td align="right">291</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Lod-Shderot Yerushalayim</td>
+                        <td align="right">292</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>HaNasi</td>
+                        <td align="right">246</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Ganei Aviv</td>
+                        <td align="right">254</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Borochov</td>
+                        <td align="right">275</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Lod - Sderot Herzl</td>
+                        <td align="right">276</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Haamelim</td>
+                        <td align="right">277</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Masger Habetichoot</td>
+                        <td align="right">290</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Abba Hillel Silver</td>
+                        <td align="right">293</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Sapir North</td>
+                        <td align="right">263</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Rahavam Zeevi</td>
+                        <td align="right">252</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Moshe Dayan</td>
+                        <td align="right">149</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Lishanski</td>
+                        <td align="right">148</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Avraham Bar</td>
+                        <td align="right">100</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Yellow</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Yellow</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Yellow</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Yellow</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Yellow</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Yellow</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Exists</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Turquoise</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Turquoise</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Turquoise</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Turquoise</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Turquoise</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Turquoise</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Turquoise</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Green</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Orange</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Bright Blue</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Red</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Bear Hashalom</td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Tel Aviv Metropolis</td>
+                        <td>NTA</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Brown</td>
+                        <td>Levin</td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Haifa Metropolis</td>
+                        <td>Transisrael</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Nofit</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Moriah, Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Turquoise</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Orange</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Orange</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Orange</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td>Planned</td>
+                        <td>Jerusalem Metropolis</td>
+                        <td>Tzatal</td>
+                        <td> January 2021</td>
+                        <td>Upper</td>
+                        <td>Purple</td>
+                        <td> </td>
+                        <td align="right">0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <script type="application/javascript">
+            function tableSearch(){
+                let input, filter, table, tr, td, txtValue;
+
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("myTable");
+                tr = table.getElementsByTagName("tr");
+
+
+                for(let i = 0; i < tr.length; i++){
+                    td = tr[i].getElementsByTagName("td")[6];
+                    if(td){
+                        txtValue = td.textContent || td.innerText;
+                        if(txtValue.toUpperCase().indexOf(filter) > -1){
+                            tr[i].style.display = "";
+                        }
+                        else {
+                            tr[i].style.display = "none";
+                        }
+                    }
+                }
+            }
+
+
+        </script>
+    </div>
+
+
+    <footer id="main-footer">
+        <p>Copyright &copy; 2022 Liron Levi & Adi Dereviani</p>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
