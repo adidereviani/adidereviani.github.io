@@ -1,0 +1,571 @@
+body {
+    background-color: rgb(216, 216, 216);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #555;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    line-height: 1.6em;
+    font-weight: normal;
+}
+body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.box-1 {
+    border-radius: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    background-color: rgb(255,255,255);
+    color: rgb(0,29,145);
+    border-width: 3px;
+    padding: 20px;
+    margin: 20px 0;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.box-1 h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px black; /* width and color */
+}
+
+.box-1 h2{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px black; /* width and color */
+}
+/*logo photo*/
+.box-1 img {
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+    position: relative;
+    top: -200px;
+}
+
+
+.box-2 {
+    background-position: center;
+    margin-bottom: 30px;
+    text-align: left;
+    min-height: 300px;
+    border-radius: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    background-color: rgb(0,32,96);
+    color: rgb(255,255,255);
+    border-width: 3px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    height: 550px;
+
+}
+
+.box-2 h1 {
+    color: #9dc0ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    text-decoration: solid;
+    direction: ltr;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.box-2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: solid;
+    direction: ltr;
+    font-weight: bold;
+}
+
+/*rail photo and information photo*/
+.box-2 img {
+    /* display: block; */
+    margin: 20px 0;
+    max-width: 45%;
+    position:static;
+    top: 50%;
+    left: 5%;
+}
+
+.box-10 {
+    background-color: rgb(0,17,52); /*updates*/
+    color: rgb(255,255,255);
+    border-width: 3px;
+    margin: 0px 0;
+    background-repeat: no-repeat;
+    width: 22%;
+    float: right;
+    border: 1px solid rgb(0,0,0);
+    box-sizing: border-box;
+    border-radius: 15px;
+    position:relative;
+    text-align: center;
+    right: 10%;
+    top: 80%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.box-10 h1 {
+    color: #a2dee5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-decoration: solid;
+    direction: ltr;
+    font-weight: bold;
+    text-decoration: underline;
+    -webkit-text-stroke: 0.1px white; /* width and color */
+}
+
+.box-10 h2 {
+    color: rgb(255,255,255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: solid;
+    direction: ltr;
+    font-weight: bold;
+}
+
+.box-10 img {
+    margin: 10px 0;
+    max-width: 50%;
+    top: -50%;
+    right: 38%;
+}
+
+
+.box-3 {
+    background-color: rgb(0,17,52);
+    color: rgb(255,255,255);
+    border-width: 3px;
+    padding: 20px;
+    margin: 0px 0;
+    background-repeat: no-repeat;
+    width: 22%;
+    float: right;
+    border: 1px solid rgb(0,0,0);
+    box-sizing: border-box;
+    border-radius: 15px;
+    position:relative;
+    text-align: center;
+    right: 10%;
+    border: 2px solid rgb(115, 194, 255);
+}
+
+.box-3 img {
+    /* margin: 20px 0; */
+    max-width: 50%;
+    top: -55%;
+    right: 38%;
+    width: 60px;
+    margin-top: auto;
+    display:flexbox;
+}
+
+
+.myButton {
+    box-shadow: inset 0px 1px 0px 0px #efdcfb;
+    background-color: #caf9ff;
+    border-radius: 15px;
+    opacity: 0.9;
+    display: inline-block;
+    cursor: pointer;
+    color: #01338e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #777;
+    z-index: 2;
+    background-image: url(images/enter.png);
+    background-position: left; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    -webkit-text-stroke: 0.2px black; /* width and color */
+}
+
+.myButton2 {
+    position: relative;
+    box-shadow: inset 0px 1px 0px 0px #efdcfb;
+    /*background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);*/
+    background: linear-gradient(to bottom, rgb(255,255,255) 1%, #a2dee5 100%);
+    background-color: #caf9ff;
+    border-radius: 18px;
+    opacity: 0.9;
+    display: inline-block;
+    cursor: pointer;
+    color: #01338e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #777;
+    z-index: 2;
+    background-image: url(images/Infoicon.png);
+    background-position: left; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    -webkit-text-stroke: 0.1px black; /* width and color */
+}
+
+.box-5 {
+    border-radius: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    background-color: rgb(255,255,255);
+    color: rgb(0,29,145);
+    border-width: 3px;
+    padding: 20px;
+    margin: 20px 0;
+    background-repeat: no-repeat;
+}
+
+.box-5 table {
+    border: 2px solid;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+}
+
+.box-5 table thead tr {
+    background-color: #caf9ff;
+}
+
+.box-5 th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.box-5 tr:hover {
+    background-color: #a2dee5;
+}
+
+.box-5 h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    direction: ltr;
+    right: 78%;
+    top: 39%;
+}
+
+.box-5 input {
+    float:left;
+    right: 77%;
+    top: 38%;
+    direction: ltr;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Add a grey border */
+    background-image: url(images/searchicon.png); 
+    background-position: right; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+}
+/*upper box of the search*/
+.box-6 {
+    border-radius: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    background-color: rgb(255,255,255);
+    color: rgb(0,29,145); /*title color*/
+    border-width: 3px;
+    padding: 20px;
+    margin: 20px 0;
+    height: 160px;
+    background-repeat: no-repeat;
+}
+
+.box-6 h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    direction: ltr;
+    /* text-decoration: underline; */
+}
+
+.box-6 h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    direction: ltr;
+    text-decoration: underline;
+}
+
+/*logo of search page*/
+.box-6 img {
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+    position:relative;
+    top: -45%;
+    left: -80%;
+    width: 200px;
+    height: 150px;
+}
+
+.box-7 {
+    background-color: rgb(255,255,255);
+    color: rgb(0,29,145); /*title color*/
+    border-width: 3px;
+    padding: 20px;
+    margin: 20px 0;
+    background-repeat: no-repeat;
+}
+
+.myButton3 {
+    box-shadow: inset 0px 1px 0px 0px #efdcfb;
+    background: linear-gradient(to bottom, rgb(255,255,255) 1%, #a2dee5 100%);
+    background-color: #a2dee5;
+    border-radius: 18px;
+    opacity: 0.9;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(0,0,0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #777;
+    position: relative;
+    z-index: 2;
+}
+
+.box-8 {
+    background-color: rgb(255,255,255);
+    color: rgb(0,29,145); /*title color*/
+    border-width: 3px;
+    background-repeat: no-repeat;
+}
+
+.box-8 h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(0,29,145); /*title color*/
+}
+
+.myButton4 {
+    box-shadow: inset 0px 1px 0px 0px #efdcfb;
+    background: linear-gradient(to bottom, rgb(255,255,255) 1%, #a2dee5 100%);
+    background-color: #a2dee5;
+    border-radius: 18px;
+    opacity: 0.9;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(0,0,0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #777;
+    z-index: 2;
+}
+
+.box-9 {
+    border-radius: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    background-color: rgb(0,32,96);
+    color: rgb(255,255,255); /*title color*/
+    border-width: 3px;
+    padding: 20px;
+    margin: 20px 0;
+    background-repeat: no-repeat;
+    height: 430px;
+}
+
+.my-form {
+    padding: 20px;
+    text-align: left;
+    direction: ltr;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+.my-form input[type="email"]{
+    padding: 8px;
+    width: 21%;
+}
+.my-form input[type="message"], .my-form textarea{
+    padding: 8px;
+    width: 20%;
+}
+.my-form input[type="text"]{
+    padding: 8px;
+    width: 21%;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+	background-color:powderblue;
+	/*background:transparent;*/
+	color: black;
+	opacity: 0.7;
+	
+	font-size: medium;
+	font-style: oblique;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: right;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on, and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+	background-color:cornflowerblue;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+	padding: 0 18px;
+	background-color:white;
+	opacity: 0.7;
+	display: none;
+	/*max-height: fit-content;*/
+	overflow: hidden;
+  }
+.accordion:after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	font-size: 15px;
+	color: #777;
+	float: right;
+	margin-left: 7px;
+  }
+  
+  .active:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+
+.myButton:hover {
+    background: linear-gradient(to bottom, rgb(255,255,255) 1%, #caf9ff 100%);
+    background-color: rgb(255,255,255); /*bottom color on click*/
+}
+
+.myButton2:hover {
+    background: linear-gradient(to bottom, rgb(255,255,255) 1%, #caf9ff 100%);
+    background-color: rgb(255,255,255); /*bottom color on click*/
+}
+
+.myButton3:hover {
+    background: linear-gradient(to bottom, rgb(255,255,255) 1%, #caf9ff 100%);
+    background-color: rgb(255,255,255); /*bottom color on click*/
+}
+
+.myButton4:hover {
+    background: linear-gradient(to bottom, rgb(255,255,255) 1%, #caf9ff 100%);
+    background-color: rgb(255,255,255); /*bottom color on click*/
+}
+
+
+#main-footer{ /*copyrhigt*/
+
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/*contact style*/
+.myButton6 {
+    position: relative;
+    box-shadow: inset 0px 1px 0px 0px #efdcfb;
+    /*background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);*/
+    background: linear-gradient(to bottom, rgb(255,255,255) 1%, #a2dee5 100%);
+    background-color: #caf9ff;
+    border-radius: 18px;
+    opacity: 0.9;
+    display: inline-block;
+    cursor: pointer;
+    color: #01338e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #777;
+    z-index: 2;
+    background-image: url(images/contact.png);
+    background-position: left; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    -webkit-text-stroke: 0.1px black; /* width and color */
+}
+
+.myButton6:hover {
+    background: linear-gradient(to bottom, rgb(255,255,255) 1%, #caf9ff 100%);
+    background-color: rgb(255,255,255); /*bottom color on click*/
+}
+
+.box-11 {
+    left: 50%;
+}
+
+.box-11 img {
+    border-radius: 5px;
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+    position: absolute;
+    top: 1.3%;
+    left: 11.5%;
+}
+
+.box-12 {
+    left: 50%;
+}
+
+.box-12 img {
+    border-radius: 5px;
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+    position: absolute;
+    top: 45%;
+    right: 11%;
+    width: 500px;
+    height: 300px;
+}
