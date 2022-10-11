@@ -1,5 +1,5 @@
 # Website URL:
-# adidereviani.github.io
+adidereviani.github.io
 =====================
 
 The final project includes the development of a website that works as a GIS Application.
